@@ -1,0 +1,14 @@
+.Coloritem {
+    height: 500px;
+    width: auto;
+    z-index: 50;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.item h3 {
+    font-size: 30px;
+}
