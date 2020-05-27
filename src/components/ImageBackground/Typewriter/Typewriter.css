@@ -13,6 +13,13 @@
     /* Adjust as needed */
     animation: typing 5s steps(40, end), blink-caret .75s step-end;
     animation-iteration-count: infinite;
+    position: absolute;
+    top: 300px;
+    left: 60%;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgb(230, 221, 221);
+    z-index: 80;
 }
 
 /* The typing effect */
@@ -35,14 +42,4 @@
     50% {
         border-color: tan;
     }
-}
-
-h2 {
-    position: absolute;
-    top: 300px;
-    left: 55%;
-    font-weight: bold;
-    font-size: 40px;
-    color: rgb(230, 221, 221);
-    z-index: 90;
 }

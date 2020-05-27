@@ -2,9 +2,8 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
     background-color: #333;
-    box-shadow: 3px 2px 2px grey;
+    box-shadow: 0 2px 2px grey;
     position: fixed;
     top: 0;
     width: 100%;
