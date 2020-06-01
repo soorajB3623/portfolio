@@ -1,6 +1,6 @@
 .typewriter h2 {
     width: auto;
-    display: inline-block;
+    display: block;
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange;
@@ -11,7 +11,7 @@
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .05em;
     /* Adjust as needed */
-    animation: typing 5s steps(40, end), blink-caret .75s step-end;
+    animation: typing 5s steps(40, end), ease-in .75s step-end;
     animation-iteration-count: infinite;
     position: absolute;
     top: 300px;

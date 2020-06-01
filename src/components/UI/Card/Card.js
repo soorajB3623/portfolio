@@ -1,9 +1,9 @@
 import React from 'react';
-import classes from './Card.module.css';
+import './Card.css';
 
 function Card(props) {
     return (
-        <div className={classes.Card}>
+        <div className='Card'>
             <h4>{props.heading}</h4>
             <p>{props.details}</p>
             <p>{props.references}</p>
